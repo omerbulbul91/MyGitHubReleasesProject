@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Overview](README.md)
+  * [What is?](overview/what-is.md)
+  * [Connect](overview/connect.md)
 * [Getting Started](getting-started/README.md)
   * [REST API endpoints for releases](getting-started/rest-api-endpoints-for-releases.md)
 * [Codes](codes/README.md)
