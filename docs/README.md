@@ -1,11 +1,26 @@
-# Program.cs
+---
+description: >-
+  "REST API endpoints for releases" ifadesi, genellikle yazılım geliştirme ve
+  web hizmetleri bağlamında kullanılır. Bu ifadeyi parçalara ayırarak daha iyi
+  anlayabiliriz:
+---
 
-Bu örnekte, GitHub'ın REST API'sini kullanarak, belirli bir GitHub deposunun (repository) son release'ini sorgulayan basit bir C# konsol uygulaması geliştireceğiz. GitHub API'si, bu tür bilgilere erişim sağlamak için sık kullanılan ve iyi dokümante edilmiş bir REST API'dir.
+# REST API endpoints for releases
 
-Aşağıda, `HttpClient` sınıfını kullanarak GitHub API'sine GET isteği gönderen ve sonucu JSON olarak ekrana yazdıran basit bir C# programı bulunmaktadır. Bu örnekte, `Newtonsoft.Json` kütüphanesini kullanarak JSON yanıtını işleyeceğiz, bu yüzden projenize bu kütüphaneyi eklemeniz gerekecektir. Bu kütüphaneyi NuGet Package Manager aracılığıyla projenize ekleyebilirsiniz: `Install-Package Newtonsoft.Json`
+## **REST (Representational State Transfer)**:
 
-{% @github-files/github-code-block url="https://github.com/omerbulbul91/MyGitHubReleasesProject/blob/main/Program.cs" %}
+İnternet üzerinden iki bilgisayar sistemi arasında veri transferi yapılmasını sağlayan bir mimari stildir. REST, web hizmetlerinin geliştirilmesi için basit, hafif ve esnek bir yöntem sunar. REST mimarisini kullanan web hizmetlerine RESTful web hizmetleri denir.
 
-Bu kod parçası, belirli bir GitHub deposunun (bu örnekte, .NET Runtime'ın) son release bilgilerini sorgular ve bu bilgileri konsolda gösterir. Programı çalıştırmadan önce, projenizin `Newtonsoft.Json` paketini içerdiğinden emin olun.
+## **API (Application Programming Interface)**:&#x20;
 
-Bu temel örnek, REST API'lerle çalışmanın basit bir yolunu gösterir. Gerçek dünya senaryolarında, API yanıtlarını işlemek ve istemci tarafında uygun hata yönetimi yapmak için daha fazla kod yazmanız gerekebilir.
+Bir yazılımın, diğer programlarla etkileşime geçebilmesi için oluşturduğu kurallar ve protokoller bütünüdür. API'lar, yazılım bileşenleri arasında bir köprü görevi görür ve bir yazılımın işlevlerini başka bir yazılımın kullanabilmesini sağlar.
+
+## **Endpoints**:&#x20;
+
+Bir API'nin, dış dünyadan erişilebilen ve belirli bir işlevi yerine getiren noktalarıdır. Örneğin, bir hava durumu API'sinde, belirli bir şehrin güncel hava durumu bilgisini almak için kullanılan URL, bir endpoint'dir.
+
+## **Releases**:&#x20;
+
+Bu bağlamda, "releases" terimi, yazılımın veya bir ürünün farklı sürümlerini ifade eder. Bir yazılımın yeni özellikler eklenmiş, hataları giderilmiş veya performansı iyileştirilmiş yeni bir sürümü yayımlandığında, bu bir "release" olarak adlandırılır.
+
+Dolayısıyla, "REST API endpoints for releases" ifadesi, bir yazılımın veya ürünün farklı sürümlerine ilişkin bilgileri sorgulamak, indirmek veya yönetmek için kullanılan REST mimarisine uygun API noktalarını (endpoints) ifade eder. Bu endpoint'ler aracılığıyla, geliştiriciler yazılımın çeşitli sürümleri hakkında bilgi alabilir, belirli bir sürümü indirebilir veya yazılım sürümleri üzerinde işlemler gerçekleştirebilirler.
