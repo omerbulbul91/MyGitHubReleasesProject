@@ -4,9 +4,9 @@
 
 * [REST API endpoints for releases](README.md)
 
-***
+## Development
 
-* [Program.cs](<README (1).md>)
+* [Program.cs](development/program.cs.md)
 
 ## Resources
 
