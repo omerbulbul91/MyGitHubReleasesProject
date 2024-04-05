@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PIQ/qH++fIJPNRzF15kwx7I9oEmdx2wL5ywUjiAzWKSSkZ9OXDAJP8zarKECTNvkDbZQHZk+L9vpINChOsOExA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\omerb\\OneDrive\\Belgeler\\GitHub\\MyGitHubReleasesProject\\MyGitHubReleasesProject\\MyGitHubReleasesProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\omerb\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
